@@ -2,12 +2,16 @@ package com.example.apptemporizador
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.CountDownTimer
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import java.text.NumberFormat
 
 class MainActivity : AppCompatActivity() {
+
+    private var timer: CountDownTimer? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,7 +24,18 @@ class MainActivity : AppCompatActivity() {
 
 
         buttonStart.setOnClickListener {
-           Toast.makeText(this, "Teste", Toast.LENGTH_SHORT).show()
+            try {
+                val number = editText.text.toString().toLong()
+
+
+
+
+            } catch (e: NumberFormatException){
+                Toast.makeText(this, "Digite um número na caixa de texto", Toast.LENGTH_SHORT).show()
+
+
+            }
+
 
         }
     }
