@@ -40,7 +40,6 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:paddingVertical="10dp"
-        android:textSize="40sp"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="40sp" />
 
 </LinearLayout>
