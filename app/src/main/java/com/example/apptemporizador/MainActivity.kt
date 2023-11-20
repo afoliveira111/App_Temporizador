@@ -27,7 +27,16 @@ class MainActivity : AppCompatActivity() {
             try {
                 val number = editText.text.toString().toLong()
 
+                timer = object : CountDownTimer(number * 60 * 1000, 1000){
+                    override fun onTick(p0: Long) {
+                    }
 
+                    override fun onFinish() {
+                        TODO("Not yet implemented")
+                    }
+
+
+                }
 
 
             } catch (e: NumberFormatException){
