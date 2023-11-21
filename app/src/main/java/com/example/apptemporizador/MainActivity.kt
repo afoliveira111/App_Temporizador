@@ -7,7 +7,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
-import java.text.NumberFormat
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,15 +27,18 @@ class MainActivity : AppCompatActivity() {
                 val number = editText.text.toString().toLong()
 
                 timer = object : CountDownTimer(number * 60 * 1000, 1000){
-                    override fun onTick(p0: Long) {
+                    override fun onTick(millisUntilFinished: Long) {
+
                     }
 
                     override fun onFinish() {
-                        TODO("Not yet implemented")
+                        result.text = " O tempo acabou!"
                     }
 
 
                 }
+
+                timer?.start()
 
 
             } catch (e: NumberFormatException){
@@ -44,9 +46,6 @@ class MainActivity : AppCompatActivity() {
 
 
             }
-
-
         }
     }
-
 }
