@@ -26,6 +26,8 @@
 
     <Button
         android:layout_width="match_parent"
+        android:backgroundTint="#1400E676"
+        android:textColor="@color/black"
         android:id="@+id/btn_start"
         android:layout_height="wrap_content"
         android:text="Iniciar" />
