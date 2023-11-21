@@ -49,6 +49,10 @@ class MainActivity : AppCompatActivity() {
 
 
             }
+
+            buttonStop.setOnClickListener {
+                timer?.cancel()
+            }
         }
     }
 }
