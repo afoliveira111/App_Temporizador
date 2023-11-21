@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                     override fun onTick(millisUntilFinished: Long) {
                         var seconds = millisUntilFinished / 1000
                         var minutes = seconds / 60
-
+                        result.text = String.format("%02d:%02d", minutes, seconds)
                     }
 
                     override fun onFinish() {
