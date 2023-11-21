@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity() {
 
                 timer = object : CountDownTimer(number * 60 * 1000, 1000){
                     override fun onTick(millisUntilFinished: Long) {
+                        var seconds = millisUntilFinished / 1000
+                        var minutes = seconds / 60
 
                     }
 
