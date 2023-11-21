@@ -12,37 +12,37 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_marginVertical="10dp"
         android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
         android:hint="Tempo (em minutos)">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
             android:id="@+id/edit_value"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:layout_width="match_parent"
-        android:backgroundTint="#14E62200"
-        android:textColor="@color/black"
         android:id="@+id/btn_start"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Iniciar" />
+        android:backgroundTint="#14E62200"
+        android:text="Iniciar"
+        android:textColor="@color/black" />
 
 
     <Button
-        android:layout_width="match_parent"
         android:id="@+id/btn_stop"
-        android:backgroundTint="@color/black"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
         android:text="Parar" />
 
     <TextView
-        android:layout_width="wrap_content"
         android:id="@+id/txt_result"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingVertical="10dp"
         android:textSize="40sp" />
