@@ -37,8 +37,6 @@ class MainActivity : AppCompatActivity() {
                     override fun onFinish() {
                         result.text = " O tempo acabou!"
                     }
-
-
                 }
 
                 timer?.start()
@@ -46,7 +44,6 @@ class MainActivity : AppCompatActivity() {
 
             } catch (e: NumberFormatException){
                 Toast.makeText(this, "Digite um número na caixa de texto", Toast.LENGTH_SHORT).show()
-
 
             }
 
