@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     override fun onFinish() {
-                        result.text = " O tempo acabou!"
+                        result.text = " O tempo acabou."
                     }
                 }
 
