@@ -21,11 +21,22 @@ aplicativo conta regressivamente exibindo o tempo restante em minutos e segundos
 
 •  Kotlin
 
+•  ViewGroup
 
-•  Utilização da classe CountDownTimer para criar uma contagem regressiva, atualizando a interface do usuário a cada segundo.
+    - RelativeLayout
+    - LinearLayout
 
+•  Components de UI
 
-•  EditText, Button e TextView para interação com o usuário.
+    - TextView
+    - EditText
+    - Button
+    
+
+•  Utilização da CountDownTimer para criar uma contagem regressiva, atualizando a interface do usuário a cada segundo.
+    
+
+•  Intent Explicita para abrir a segunda Activity.
 
 
 •  Toast para exibir mensagens curtas na interface do usuário.
