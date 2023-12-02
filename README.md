@@ -14,7 +14,7 @@
 
 #### Aplicativo Timer em Kotlin
 
-• Este é um aplicativo Android simples que funciona como um temporizador. O usuário insere um valor em minutos, pressiona o botão "Iniciar", e o 
+•  Este é um aplicativo Android simples que funciona como um temporizador. O usuário insere um valor em minutos, pressiona o botão "Iniciar", e o 
 aplicativo conta regressivamente exibindo o tempo restante em minutos e segundos. O usuário também pode interromper o temporizador pressionando o botão "Parar".
 
 ### Tecnologias Utilizadas
