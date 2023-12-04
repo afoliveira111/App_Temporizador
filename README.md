@@ -12,42 +12,41 @@
 
 
 
-#### Aplicativo Timer em Kotlin
+# Temporizador
 
-•  Este é um aplicativo Android simples que funciona como um temporizador. O usuário insere um valor em minutos, pressiona o botão "Iniciar", e o 
-aplicativo conta regressivamente exibindo o tempo restante em minutos e segundos. O usuário também pode interromper o temporizador pressionando o botão "Parar".
+Este é um aplicativo Android simples que funciona como um temporizador. O usuário insere um valor em minutos, pressiona o botão "Iniciar", e o aplicativo conta regressivamente, exibindo o tempo restante em minutos e segundos. O usuário também pode interromper o temporizador pressionando o botão "Parar".
 
-### Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-•  Kotlin
-
-•  ViewGroup
-
-    - RelativeLayout
-    - LinearLayout
-
-•  Components de UI
-
-    - TextView
-    - EditText
-    - Button
-    
-
-•  Utilização da CountDownTimer para criar uma contagem regressiva, atualizando a interface do usuário a cada segundo.
-    
-
-•  Intent Explicita para abrir a segunda Activity.
-
-
-•  Toast para exibir mensagens curtas na interface do usuário.
-
-
-### TODO 
-- Melhorar estilização do app e criar novas funcionalidades.
+* **Kotlin:** Linguagem de programação principal utilizada para o desenvolvimento Android.
   
+* **ViewGroup:**
+  - RelativeLayout
+  - LinearLayout
 
-## Author
-Antonio Felipe Oliveira (follow me on www.linkedin.com/in/id-antonio-felipe)
+* **Componentes de UI:**
+  - TextView
+  - EditText
+  - Button
+
+* **CountDownTimer:**
+  - Utilização da `CountDownTimer` para criar uma contagem regressiva, atualizando a interface do usuário a cada segundo.
+
+* **Intent Explicita:**
+  - Utilização de Intent Explicita para abrir a segunda Activity.
+
+* **Toast:**
+  - Utilização do componente `Toast` para exibir mensagens curtas na interface do usuário.
+
+## TODO
+
+* Melhorar a estilização do aplicativo.
+  
+* Criar novas funcionalidades.
+
+## Autor
+
+Antonio Felipe Oliveira ([LinkedIn](www.linkedin.com/in/id-antonio-felipe)) - Siga-me!
 
 
 
