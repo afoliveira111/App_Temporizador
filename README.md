@@ -18,25 +18,21 @@ Este é um aplicativo Android que funciona como um temporizador. O usuário inse
 
 ## Tecnologias Utilizadas
 
-* **Kotlin** 
-  
-* **ViewGroup:**
-  - RelativeLayout
-  - LinearLayout
+* **Kotlin**
+* **CountDownTimer:**  - Utilização da `CountDownTimer` para criar uma contagem regressiva, atualizando a interface do usuário a cada segundo.
 
-* **Componentes de UI:**
+* **Intent Explicita:**  - Utilização de Intent Explicita para abrir a segunda Activity.
+
+* **Toast:**  - Utilização do componente `Toast` para exibir mensagens curtas na interface do usuário.
+  
+* **ViewGroup:**  - RelativeLayout  - LinearLayout
+
+## **Componentes de UI:**
   - TextView
   - EditText
   - Button
 
-* **CountDownTimer:**
-  - Utilização da `CountDownTimer` para criar uma contagem regressiva, atualizando a interface do usuário a cada segundo.
 
-* **Intent Explicita:**
-  - Utilização de Intent Explicita para abrir a segunda Activity.
-
-* **Toast:**
-  - Utilização do componente `Toast` para exibir mensagens curtas na interface do usuário.
 
 ## TODO
 
